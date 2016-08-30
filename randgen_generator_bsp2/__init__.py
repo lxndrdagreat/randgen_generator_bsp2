@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
+import random
 from randgen_maptools import coord_to_1d_index
 from randgen_generator_bsp import bsp_rect, tunnel
 
 
 __author__ = 'Dan Alexander'
 __email__ = 'lxndrdagreat@gmail.com'
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 """
 Parameter Schema
