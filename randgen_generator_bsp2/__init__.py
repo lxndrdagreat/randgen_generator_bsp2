@@ -6,7 +6,7 @@ from randgen_generator_bsp import bsp_rect, tunnel
 
 __author__ = 'Dan Alexander'
 __email__ = 'lxndrdagreat@gmail.com'
-__version__ = '0.1.1'
+__version__ = '0.1.2'
 
 """
 Parameter Schema
@@ -15,30 +15,27 @@ schema = {
     'width': {
         'type': 'integer',
         'coerce': int,
-        'min': 25
+        'min': 25,
+        'default': 50
     },
     'height': {
         'type': 'integer',
         'coerce': int,
-        'min': 25
+        'min': 25,
+        'default': 50
     },
     'min_size': {
         'type': 'integer',
         'coerce': int,
-        'min': 3
+        'min': 3,
+        'default': 5
     },
     'max_size': {
         'type': 'integer',
         'coerce': int,
-        'min': 5
+        'min': 5,
+        'default': 12
     }
-}
-
-schema_default = {
-    'width': 50,
-    'height': 50,
-    'min_size': 5,
-    'max_size': 12
 }
 
 
